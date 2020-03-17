@@ -11,7 +11,7 @@ spec:
         app: "aspnetapp"
     spec:
       containers:
-      - image: 862832033224.dkr.ecr.us-east-1.amazonaws.com/aspnet4you-ecr:aspnetapp-v2
+      - image: mcr.microsoft.com/dotnet/core/samples:aspnetapp
         imagePullPolicy: Always
         name: "aspnetapp"
         ports:
